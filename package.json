@@ -1,0 +1,15 @@
+{
+  "name": "betterbookmark",
+  "scripts": {},
+  "author": "",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.11.2",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.11.2",
+  "type": "module",
+  "private": true
+}

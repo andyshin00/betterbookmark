@@ -184,11 +184,11 @@ Each phase ends with something that **works and you can click on**. Finish one p
 
 **Goal:** an empty app that runs and deploys.
 
-- [ ] `git init`, create a GitHub repo.
-- [ ] Set up the pnpm workspace (`apps/web`, `packages/db`, `packages/shared`).
-- [ ] `create-next-app` in `apps/web` with TypeScript + Tailwind.
-- [ ] `shadcn init`, add a few components (button, input, card).
-- [ ] Set up Oxlint (linting) + Prettier (formatting). Skip ESLint when `create-next-app` asks which linter to use.
+- [x] `git init`, create a GitHub repo.
+- [x] Set up the pnpm workspace (`apps/web`, `packages/shared`). `packages/db` is created in Phase 2 together with Drizzle.
+- [x] `create-next-app` in `apps/web` with TypeScript + Tailwind.
+- [x] `shadcn init`, add a few components (button, input, card).
+- [x] Set up Oxlint (linting) + Prettier (formatting). Skip ESLint when `create-next-app` asks which linter to use.
 - [ ] Create a Neon project, put `DATABASE_URL` in `.env`.
 - [ ] Deploy to Vercel (yes, already now, so deploying is never scary).
 

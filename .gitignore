@@ -151,3 +151,5 @@ vite.config.ts.timestamp-*
 #EXTENSION STUFF
 .wxt/
 .output/
+# personal working notes (rewritten every task)
+CURRENT_TASK.md

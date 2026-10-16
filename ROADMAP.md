@@ -189,7 +189,7 @@ Each phase ends with something that **works and you can click on**. Finish one p
 - [x] `create-next-app` in `apps/web` with TypeScript + Tailwind.
 - [x] `shadcn init`, add a few components (button, input, card).
 - [x] Set up Oxlint (linting) + Prettier (formatting). Skip ESLint when `create-next-app` asks which linter to use.
-- [ ] Create a Neon project, put `DATABASE_URL` in `.env`.
+- [x] Create a Neon project, put `DATABASE_URL` in `apps/web/.env.local`.
 - [ ] Deploy to Vercel (yes, already now, so deploying is never scary).
 
 **Done when:** a "Hello BetterBookmark" page is live on a Vercel URL.
@@ -198,12 +198,12 @@ Each phase ends with something that **works and you can click on**. Finish one p
 
 **Goal:** users can sign up, log in and log out.
 
-- [ ] Install Better Auth and connect it to Drizzle + Neon.
-- [ ] Generate the auth tables, run the migration.
-- [ ] Build signup and login pages (React Hook Form + Zod + shadcn).
-- [ ] Protect `(app)` pages: redirect to login if not signed in.
-- [ ] Add a user menu with log out.
-- [ ] Add dark mode (next-themes) and toasts (sonner).
+- [x] Install Better Auth and connect it to Drizzle + Neon.
+- [x] Generate the auth tables, run the migration.
+- [x] Build signup and login pages (React Hook Form + Zod + shadcn).
+- [x] Protect `(app)` pages: redirect to login if not signed in.
+- [x] Add a user menu with log out.
+- [x] Add dark mode (next-themes) and toasts (sonner).
 
 **Done when:** you can create an account, log in, refresh the page and still be logged in, then log out.
 **Connection to what you know:** this is your old bcrypt + cookie flow, handled by the library.

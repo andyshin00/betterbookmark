@@ -13,5 +13,10 @@
     "browser": true,
     "node": true
   },
-  "ignorePatterns": ["**/.next/**", "**/.output/**", "**/.wxt/**"]
+  "ignorePatterns": [
+    "**/.next/**",
+    "**/.output/**",
+    "**/.wxt/**",
+    "apps/web/components/ui/**"
+  ]
 }

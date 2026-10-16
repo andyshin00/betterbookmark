@@ -5,7 +5,11 @@
     "build": "pnpm --filter web build",
     "lint": "oxlint",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "db:generate": "pnpm --filter @betterbookmark/db db:generate",
+    "db:migrate": "pnpm --filter @betterbookmark/db db:migrate",
+    "db:studio": "pnpm --filter @betterbookmark/db db:studio",
+    "auth:generate": "pnpm --filter web exec auth generate --config lib/auth.ts --output ../../packages/db/src/auth-schema.ts --yes"
   },
   "devEngines": {
     "packageManager": {

@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@betterbookmark/shared"],
+  transpilePackages: ["@betterbookmark/shared", "@betterbookmark/db"],
   experimental: {
     agentFeedback: true,
   },

@@ -1,6 +1,8 @@
 {
   "name": "betterbookmark",
-  "scripts": {},
+  "scripts": {
+    "dev": "pnpm --filter web dev"
+  },
   "author": "",
   "devEngines": {
     "packageManager": {

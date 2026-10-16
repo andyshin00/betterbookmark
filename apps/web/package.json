@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@betterbookmark/shared": "workspace:*",
     "next": "16.4.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -19,6 +20,5 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "packageManager": "pnpm@12.11.2"
+  }
 }

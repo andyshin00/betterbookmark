@@ -168,6 +168,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@betterbookmark/shared':
+        specifier: workspace:*
+        version: link:../../packages/shared
       next:
         specifier: 16.4.1
         version: 16.4.1(@types/node@20.19.43)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -196,6 +199,8 @@ importers:
       typescript:
         specifier: ^5
         version: 5.9.3
+
+  packages/shared: {}
 
 packages:
 
